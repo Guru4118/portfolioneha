@@ -1,0 +1,14 @@
+[
+  {
+    "role": "Software Developer",
+    "organisation": "NWORX",
+    "startDate": "Oct, 2023",
+    "endDate": "Present",
+    "experiences": [
+      "Developing a cross-platform mobile application using Flutter to deliver a seamless user experience.",
+      "Collaborating with a team to design, implement, and optimize app features for performance and scalability.",
+      "Integrating APIs and backend services to ensure efficient data flow and user interactions."
+    ],
+    "imageSrc": "history/nworx.png"
+  }
+]

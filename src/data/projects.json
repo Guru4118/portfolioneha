@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Dairy Product Site",
+    "imageSrc": "projects/dairy_product_site.png",
+    "description": "A full-stack web app for dairy product management, order processing, and secure transactions.",
+    "skills": ["Django", "Python", "HTML", "CSS", "JavaScript", "Payment Gateway Integration"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  }
+  
+  ,
+  {
+    "title": "Data Augmentation for Handwritten Character Recognition",
+    "imageSrc": "projects/handwritten_recognition.png",
+    "description": "Enhanced digit recognition using augmented MNIST data for improved accuracy and real-world applications.",
+    "skills": ["GANs", "CNN", "TensorFlow", "Keras", "Pygame", "Flask", "Python"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Advanced Floral Recognition System Using CNN",
+    "imageSrc": "projects/floral_recognition.png",
+    "description": "Developed a flower classification system using CNN, transfer learning, and ensemble techniques.",
+    "skills": ["VGG16", "CNN", "Random Forest", "SVM", "Data Augmentation", "Machine Learning", "Deep Learning"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  }
+  
+  
+]
