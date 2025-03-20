@@ -12,7 +12,7 @@ export const Contact = () => {
     <footer id="contact" className={styles.container}>
       <div className={styles.text}>
         <h2>Contact</h2>
-        <p>Feel free to reach out!</p>
+        
       </div>
       <ul className={styles.links}>
         <li className={styles.link}>
@@ -21,7 +21,7 @@ export const Contact = () => {
         </li>
         <li className={styles.link}>
           <img src= {linkedin} alt="linkedin logo" />
-          <a href="https://www.linkedin.com/in/nehagrandhe/">Neha Grandhe</a>
+          <a target="new" href="https://www.linkedin.com/in/nehagrandhe/">Neha Grandhe</a>
         </li>
         
       </ul>
