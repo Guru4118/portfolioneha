@@ -18,9 +18,9 @@
     "source": "https://www.github.com"
   },
   {
-    "title": "Advanced Floral Recognition System Using CNN",
+    "title": "Advanced Floral Recognition",
     "imageSrc": "projects/floral_recognition.png",
-    "description": "Developed a flower classification system using CNN, transfer learning, and ensemble techniques.",
+    "description": "Developed a flower classification system using  transfer learning, and ensemble techniques.",
     "skills": ["VGG16", "CNN", "Random Forest", "SVM", "Data Augmentation", "Machine Learning", "Deep Learning"],
     "demo": "https://www.example.com",
     "source": "https://www.github.com"
