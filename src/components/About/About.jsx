@@ -14,27 +14,54 @@ export const About = () => {
     <section className={styles.container} id="about">
       <h2 className={styles.title}>About</h2>
       <div className={styles.content}>
-      <img src={aboutImage} alt="Me sitting with a laptop" className={styles.aboutImage} />
         <ul className={styles.aboutItems}>
           <li className={styles.aboutItem}>
           <img src={cursorIcon} alt="Cursor icon" />
-            <div className={styles.aboutItemText}>
-              <h3>Education</h3>
-              <p>
-              Full Stack Developer pursuing an MCA at VIT Vellore, with a strong foundation in web development. Achieved 3rd rank in BCA with a CGPA of 9.55, demonstrating academic excellence and technical proficiency. Passionate about building innovative digital solutions.              </p>
-            </div>
+          <div className={styles.educationSection}>
+  <h3 className="education-title">EDUCATION</h3>
+ 
+  <br />
+
+  <div className="education-item">
+    <div className="education-details">
+      <p className="degree"><strong>• Master Of Computer Applications (MCA)</strong></p>
+      <p className="institute"><em>Vellore Institute of Technology, Vellore</em></p>
+    </div>
+    <div className="education-info">
+      <p className="duration"><em>2023 – 2025</em></p>
+      <p className="cgpa"><strong>CGPA:</strong> 9.35</p>
+    </div>
+  </div>
+  <br />
+
+  <div className="education-item">
+    <div className="education-details">
+      <p className="degree"><strong>• Bachelor Of Computer Applications (BCA)</strong></p>
+      <p className="institute"><em>Vellore Institute of Technology, Vellore</em></p>
+    </div>
+    <div className="education-info">
+      <p className="duration"><em>2020 – 2023</em></p>
+      <p className="cgpa"><strong>CGPA:</strong> 9.55</p>
+    </div>
+  </div>
+</div>
+
+
+
+
+
           </li>
           <li className={styles.aboutItem}>
           <img src={serverIcon} alt="Server icon" />
             <div className={styles.aboutItemText}>
               <h3>Achievements</h3>
               <p>
-               <ul>
-                <li>Secured 3rd rank in Bachelor of Computer Applications (BCA) with a CGPA of 9.55.</li>
+               
+                <p><strong>•</strong> Secured 3rd rank in Bachelor of Computer Applications (BCA) with a CGPA of 9.55.</p>
                 
-                <li>Awarded Merit Scholarship in all three years of the BCA program for
-                academic excellence.</li>
-               </ul>
+                <p><strong>•</strong> Awarded Merit Scholarship in all three years of the BCA program for
+                academic excellence.</p>
+               
               </p>
             </div>
           </li>
@@ -44,13 +71,11 @@ export const About = () => {
               <h3>Certifications</h3>
               <p>
                 
-                <ul>
-                <li>
-                 <b>Python with Machine Learning</b>  – Training at Acmegrade
-                  </li><li>
-                 <b>Programming with Python </b> – Certified by Internshala
-                  </li>
-                </ul>
+                
+                 <p><b><strong>•</strong> Python with Machine Learning</b>  – Training at Acmegrade
+                  </p><p>
+                 <b><strong>•</strong> Programming with Python </b> – Certified by Internshala</p>
+                  
               </p>
             </div>
           </li>
